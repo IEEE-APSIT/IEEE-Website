@@ -1,0 +1,19 @@
+@media (max-width: 670px) {
+
+  .slideshow-container {
+    height: auto;
+  }
+
+  .prev, .next {
+    color: white;
+    font-size: 20px;
+    margin-top: -28px;
+    padding: 0px;
+    font-size: 24px;
+  }
+
+  .prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0);
+  }
+
+}
