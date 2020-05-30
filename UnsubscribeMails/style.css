@@ -131,3 +131,35 @@ a{
     text-decoration: none;
     outline: 0 !important;
 }
+
+.stat{
+    display: inline-block; 
+    float:left; 
+    width: 50%;
+}
+
+#content{
+    text-align: center; 
+    margin-top: 10%; 
+    clear:both; 
+    padding: 0% 5% 5% 5%; 
+    background-color: #eeeeee;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        padding: 5% 10%;
+    }
+    .stat{
+        margin-top: 2%;
+        width: 70%;
+        height: auto;
+    }
+    #content{
+        text-align: center; 
+        margin-top: 20%; 
+        clear:both; 
+        padding: 0% 5% 5% 5%; 
+        background-color: #eeeeee;
+    }
+}
