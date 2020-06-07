@@ -19,6 +19,8 @@
   <!-- CSS Files
     ================================================== -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"> 
   <link rel="stylesheet" href="./css/style.css" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css" />
     
@@ -226,8 +228,53 @@
       <!-- section close -->
 
 
+    <!--Sponsers
+  <div class="col-md-12 text-center wow fadeInUp" id="about" style="padding: 50px 0px 30px 0px;">
+    <h2><span class="id-color" style="color: #0995b0;">Sponsers </span> </h2>
+    <div class="brands">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="brands_slider_container">
+                      <div class="owl-carousel owl-theme brands_slider">
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_1.jpg" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_2.jpg" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_4.jpg" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_5.jpg" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_3.jpg" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_6.jpg" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_7.jpg" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_8.jpg" alt=""></div>
+                          </div>
+                      </div> 
+                      <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>
+                      <div class="brands_nav brands_next"><i class="fas fa-chevron-right"></i></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+     Sponsers Close-->
+
       
     <!--Registration section begins-->
+    <p></p>
     <section id="section-tickets" class="text-light no-top no-bottom" data-stellar-background-ratio=".2" style="padding: 50px 0px 0px 0px;">
       <div class="overlay-bg pt80 pb80" id="registration">
         <div class="container">
@@ -310,7 +357,48 @@
 
 
   <!-- Javascript Files
-    ================================================== -->
+    ================================================== 
+    <script>$(document).ready(function(){
+
+      if($('.brands_slider').length)
+      {
+      var brandsSlider = $('.brands_slider');
+      
+      brandsSlider.owlCarousel(
+      {
+      loop:true,
+      autoplay:true,
+      autoplayTimeout:5000,
+      nav:false,
+      dots:false,
+      autoWidth:true,
+      items:8,
+      margin:42
+      });
+      
+      if($('.brands_prev').length)
+      {
+      var prev = $('.brands_prev');
+      prev.on('click', function()
+      {
+      brandsSlider.trigger('prev.owl.carousel');
+      });
+      }
+      
+      if($('.brands_next').length)
+      {
+      var next = $('.brands_next');
+      next.on('click', function()
+      {
+      brandsSlider.trigger('next.owl.carousel');
+      });
+      }
+      }
+      
+      
+      });
+    </script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
   <script src="./js/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="./js/jquery.isotope.min.js"></script>
