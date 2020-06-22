@@ -70,6 +70,9 @@ body {
   color: #8a8b8d;
 }
 
+hr{
+  margin: 0px;
+height: 5px;
 background-color: #4d73e8;
 border: none;
 }
