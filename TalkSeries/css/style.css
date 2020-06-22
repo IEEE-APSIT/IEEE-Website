@@ -61,7 +61,8 @@ time, mark, audio, video {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1340px;
+    max-width: 1250px;
+    
   }
 }
 body {
@@ -70,7 +71,7 @@ body {
 }
 
 .container-fluid {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 h2::before, h2::after, .fh5co-about-us .owl-carousel1 .owl-dots .active span, .read-more, .fh5co-news .owl-carousel2 .owl-dots .active span, .form-box h4::after, .form-box button {
@@ -87,20 +88,20 @@ nav.fixed-top {
   position: absolute;
 }
 .header .container {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.341);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.341);
 }
 .header .container p.follow {
   color: #ffffff;
   font-family: "segoeui";
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .header .home-bg {
-  min-height: 430px;
-  max-height: 105vh;
+  min-height: 400px;
+  max-height: 115vh;
 }
 .header .carousel-caption {
   bottom: 0;
-  top: 383px;
+  top: 300px;
 }
 .header .frst-hrd {
   font-family: "Gotham-Narrow-Light";
@@ -126,7 +127,7 @@ nav.fixed-top {
   color: #ffffff;
 }
 .header ul.carousel-indicators {
-  bottom: 280px;
+  bottom: 100px;
   position: absolute;
   z-index: 55;
 }
@@ -135,7 +136,7 @@ nav.fixed-top {
   display: inline-block;
   list-style-type: none;
   width: 12px;
-  height: 7px;
+  height: 5px;
   border-radius: 10px;
   margin: 0 3px;
   cursor: pointer;
@@ -146,12 +147,12 @@ nav.fixed-top {
 }
 @media (max-width: 1199px) {
   .header ul.carousel-indicators {
-    bottom: 200px;
+    bottom: 50px;
   }
 }
 @media (max-width: 738px) {
   .header ul.carousel-indicators {
-    bottom: 110px;
+    bottom: 10px;
   }
 }
 @media (max-width: 1199px) {
@@ -179,7 +180,7 @@ nav.fixed-top {
     top: 100px;
   }
   .header .carousel-caption ul {
-    margin-top: 20px;
+    margin-top:10px;
   }
 }
 
@@ -669,6 +670,13 @@ a {
   width: 16px;
   height: 16px;
   display: block;
+}
+.indicators li a :hover {
+  border-width: 0.8px;
+  border: 1px solid #1270e4;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
 }
 .indicators li a.active {
   border-width: 0.8px;
