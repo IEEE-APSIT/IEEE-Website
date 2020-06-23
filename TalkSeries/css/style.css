@@ -853,9 +853,12 @@ footer.fh5co-footer .social-links li a {
   color: #1e1f29;
 }
 @media (max-width: 991px) {
-  footer.fh5co-footer .col-lg-5 {
+  #footer-link{
+    padding-left: 30%;
+  }
+  footer.fh5co-footer .col-lg-4 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
   }
   footer.fh5co-footer .social-links {
     display: inline-block !important;
@@ -864,6 +867,8 @@ footer.fh5co-footer .social-links li a {
     width: auto;
   }
 }
+
+
 
 .form-box {
   border-radius: 3px;
