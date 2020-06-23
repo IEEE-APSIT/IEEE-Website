@@ -107,7 +107,7 @@ nav.fixed-top {
 }
 .header .carousel-caption {
   bottom: 0;
-  top: 300px;
+  top: 390px;
 }
 .header .frst-hrd {
   font-family: "Gotham-Narrow-Light";
@@ -133,7 +133,7 @@ nav.fixed-top {
   color: #ffffff;
 }
 .header ul.carousel-indicators {
-  bottom: 100px;
+  bottom: 280px;
   position: absolute;
   z-index: 55;
 }
