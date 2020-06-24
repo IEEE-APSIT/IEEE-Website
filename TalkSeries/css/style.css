@@ -868,12 +868,9 @@ footer.fh5co-footer .social-links li a {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   .talk{
     font-size: 25px;
-  }
-  .google{
-    margin-left: 5%;
   }
 }
 
