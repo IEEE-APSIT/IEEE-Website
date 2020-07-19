@@ -22,13 +22,13 @@
   font-size: 20px;
 }
 
-#pes-logo{
+#footer-pes-logo{
   margin-top: -15%; 
   width: 40%;
 }
 
 @media screen and (max-width: 1024px){
-    #pes-logo{
+  #footer-pes-logo{
     display: none;
   }
   #footer-nav{
