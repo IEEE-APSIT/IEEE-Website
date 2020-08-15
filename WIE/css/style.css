@@ -11,6 +11,41 @@
 *	Edit this section
 *
 * ======================================================= */
+p{
+  font-size:80%;
+  text-align:left;
+}
+img{
+  display:inline-block;
+  width:75%;
+  height:25%;
+  padding:1%;
+   border-radius: 25px; 
+}
+h3{
+  font-size: 120%;
+}
+.responsive {
+  width: 95%;
+  max-width: 400px;
+  height: 380px;
+}
+.responsive1 {
+  width: 95%;
+  max-width: 400px;
+  height:380px;
+}
+.img-responsive{
+ border-radius:50px;
+ padding:20px; 
+}
+@media (max-width: 600px) {
+    .logo  {
+      display: none;
+    }
+}
+
+
 body {
   font-family: "Poppins",sans-serif;
   font-weight: 300;
