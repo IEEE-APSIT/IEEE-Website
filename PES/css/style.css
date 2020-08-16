@@ -10,6 +10,32 @@
 * 	Template Style 
 *
 * ======================================================= */
+#footer-nav{
+  display: inline-block; 
+  margin: 10% 10% 10% -10%; 
+  font-size: 20px;
+}
+
+#footer-contact{
+  display: inline-block; 
+  margin: 5%; 
+  font-size: 20px;
+}
+
+#footer-pes-logo{
+  margin-top: -15%; 
+  width: 40%;
+}
+
+@media screen and (max-width: 1024px){
+  #footer-pes-logo{
+    display: none;
+  }
+  #footer-nav{
+    margin: 10% 10% 10% 10%;
+  }
+}
+
 .logo{
   width: 6rem;
   height: auto;
