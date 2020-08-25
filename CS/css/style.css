@@ -11,6 +11,52 @@
 *	Edit this section
 *
 * ======================================================= */
+
+#Executive-committee{
+  margin-top: -60px;
+}
+
+.committees{
+  margin-top: -180px;
+}
+
+#footer-logo{
+    width: 80%;
+}
+
+#header-image{
+  width: 100%;
+}
+
+@media screen and (max-width: 480px){
+  #footer_logo{
+    display: none;
+  }
+  #header-image{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){ 
+  #Executive-committee{
+    margin-top: 80px;
+  }
+  #footer-logo{
+    display: none;
+  }
+  #header-image{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  #footer-logo{
+    width: 80%;
+    display: block;
+    margin: 0px 0px 50px 100px;
+  }
+}
+
 body {
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
