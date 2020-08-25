@@ -37,6 +37,14 @@
   }
 }
 
+@media screen and (max-width: 1024px){
+  #footer-logo{
+    width: 80%;
+    display: block;
+    margin: 0px 0px 50px 100px;
+  }
+}
+
 @media screen and (max-width: 768px){ 
   #Executive-committee{
     margin-top: 80px;
@@ -46,14 +54,6 @@
   }
   #header-image{
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 1024px){
-  #footer-logo{
-    width: 80%;
-    display: block;
-    margin: 0px 0px 50px 100px;
   }
 }
 
