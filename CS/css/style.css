@@ -1514,7 +1514,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url("../images/header.png");
 
   /* Full height */
-  height: 500px !important;
+  height: 550px !important;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
