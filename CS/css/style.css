@@ -1463,40 +1463,24 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 20px;
 }
 @media screen and (max-width: 600px) {
-  .CoWe{
-    width: 50%;
-    height: 100%;
-  }
   .CarImg{
     height: 250px !important;
     width: 100%;
   }
 }
 @media screen and (min-width: 600px) {
-  .CoWe{
-    width: 40%;
-    height: 90%;
-  }
   .CarImg{
     height: 400px !important;
     width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
-  .CoWe{
-    width: 35%;
-    height: 75%;
-  }
   .CarImg{
     height: 500px !important;
     width: 100%;
   }
 }
 @media screen and (min-width: 992px){
-   .CoWe{
-    width: 30%;
-    height: 70%;
-  }
   .CarImg{
     height: 600px !important;
     width: 100%;
@@ -1507,4 +1491,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 650px !important;
     width: 100%;
   }
+}
+.CoWe{
+  width: 50%;
+  height: auto;
 }
