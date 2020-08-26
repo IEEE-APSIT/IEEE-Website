@@ -1471,28 +1471,93 @@ h1, h2, h3, h4, h5, h6 {
     height: 250px !important;
     width: 100%;
   }
+  .parallax {
+  /* The image used */
+  background-image: url("../images/Carousel/0.jpg");
+
+  /* Full height */
+  height: 250px !important;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 250px;
+}
 }
 @media screen and (min-width: 600px) {
   .CarImg{
     height: 400px !important;
     width: 100%;
   }
+  .parallax {
+  /* The image used */
+  background-image: url("../images/Carousel/0.jpg");
+
+  /* Full height */
+  height: 400px !important;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+}
 }
 @media screen and (min-width: 768px) {
   .CarImg{
     height: 500px !important;
     width: 100%;
   }
+  .parallax {
+  /* The image used */
+  background-image: url("../images/Carousel/0.jpg");
+
+  /* Full height */
+  height: 500px !important;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 500px;
+}
 }
 @media screen and (min-width: 992px){
   .CarImg{
     height: 600px !important;
     width: 100%;
   }
+  .parallax {
+  /* The image used */
+  background-image: url("../images/Carousel/0.jpg");
+
+  /* Full height */
+  height: 600px !important;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 600px;
+}
 }
 @media screen and (min-width: 1200px) {
   .CarImg{
     height: 650px !important;
     width: 100%;
   }
+  .parallax {
+  /* The image used */
+  background-image: url("../images/Carousel/0.jpg");
+
+  /* Full height */
+  height: 650px !important;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 650px;
+}
 }
