@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-header {
-  position: fixed;
+  position:absolute;
   z-index: 99;
   width: 100%;
   opacity: 1;
