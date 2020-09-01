@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 100%;
   height: 3px;
-  bottom: -27px;
+  bottom: -17px;
   left: 0;
   background-color: rgba(255, 255, 255, 0.5);
   visibility: hidden;
@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  background-color: #3EC483;
+  background-color: #63aaf8;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header #navbar li.active a span:before {
@@ -945,6 +945,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-footer {
   background: #41444B;
   color: rgba(255, 255, 255, 0.6);
+  
 }
 #fh5co-footer a {
   color: rgba(255, 255, 255, 0.8);
@@ -957,11 +958,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 22px;
   color: #fff;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 #fh5co-footer .copy-right {
   position: relative;
-  padding-top: 20px;
+  padding-top: 10px;
   margin-top: 40px;
 }
 #fh5co-footer .copy-right > a {
@@ -993,6 +994,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-footer .social-media {
   margin: 0 0 30px 0;
+margin-top:-30px;
   padding: 0;
 }
 #fh5co-footer .social-media li {
@@ -1462,6 +1464,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	padding-bottom: 20px;
 }
+
 @media screen and (max-width: 600px) {
   .CarImg{
     height: 250px !important;
@@ -1495,4 +1498,22 @@ h1, h2, h3, h4, h5, h6 {
 .CoWe{
   width: 50%;
   height: auto;
+}
+#header-image {
+  margin-top: 0px;
+  padding-left: 1% !important;
+  padding-right: 1% !important;
+}
+.navbar{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}
+#navimg{
+  margin-left: 7%;
+}
+@media screen and (min-width: 768px){
+  #navimg{
+    display: none;
+  }
 }
