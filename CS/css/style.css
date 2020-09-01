@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  background-color: #63aaf8;
+  background-color: #3EC483;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header #navbar li.active a span:before {
@@ -529,7 +529,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-counters,
 #fh5co-pricing,
 #fh5co-blog {
-  padding: 8em 0;
+  padding: 6em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services,
