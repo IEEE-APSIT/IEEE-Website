@@ -1,7 +1,7 @@
 # IEEE-Website
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![GitHub repo size](https://img.shields.io/github/repo-size/IEEE-APSIT/IEEE-Website)
 ![GitHub issues](https://img.shields.io/github/issues/IEEE-APSIT/IEEE-Website)
 
