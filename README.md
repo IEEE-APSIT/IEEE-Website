@@ -1,6 +1,6 @@
 # IEEE-Website
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -23,6 +23,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/kshitizJ"><img src="https://avatars1.githubusercontent.com/u/53303745?v=4" width="100px;" alt=""/><br /><sub><b>Kshitiz Jain</b></sub></a><br /><a href="#design-kshitizJ" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Omichougule"><img src="https://avatars1.githubusercontent.com/u/63452279?v=4" width="100px;" alt=""/><br /><sub><b>Omichougule</b></sub></a><br /><a href="#design-Omichougule" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/ishaphadkar"><img src="https://avatars2.githubusercontent.com/u/62344880?v=4" width="100px;" alt=""/><br /><sub><b>ishaphadkar</b></sub></a><br /><a href="#design-ishaphadkar" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Sid616"><img src="https://avatars3.githubusercontent.com/u/67314791?v=4" width="100px;" alt=""/><br /><sub><b>Sid616</b></sub></a><br /><a href="#design-Sid616" title="Design">🎨</a></td>
   </tr>
 </table>
 
