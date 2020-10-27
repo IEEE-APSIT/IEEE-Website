@@ -1,6 +1,6 @@
 # IEEE-Website
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -28,6 +28,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Sid616"><img src="https://avatars3.githubusercontent.com/u/67314791?v=4" width="100px;" alt=""/><br /><sub><b>Sid616</b></sub></a><br /><a href="#design-Sid616" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/MansiShah15"><img src="https://avatars0.githubusercontent.com/u/59872009?v=4" width="100px;" alt=""/><br /><sub><b>MansiShah15</b></sub></a><br /><a href="#design-MansiShah15" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/rakshitshah-28"><img src="https://avatars1.githubusercontent.com/u/64726681?v=4" width="100px;" alt=""/><br /><sub><b>RAKSHIT SHAH</b></sub></a><br /><a href="#design-rakshitshah-28" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/YashSampat23154"><img src="https://avatars2.githubusercontent.com/u/52824246?v=4" width="100px;" alt=""/><br /><sub><b>Yash_Sampat</b></sub></a><br /><a href="#projectManagement-YashSampat23154" title="Project Management">📆</a></td>
   </tr>
 </table>
 
