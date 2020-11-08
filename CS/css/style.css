@@ -566,11 +566,19 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
 }
 .fh5co-portfolio > a:hover {
-  webkit-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
-  -moz-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
-  box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
+  webkit-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.5);
+}
+.fh5co-portfolio > a:active {
+  webkit-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.5);
 }
 .fh5co-portfolio > a:hover .desc {
+  opacity: 1;
+}
+.fh5co-portfolio > a:active .desc {
   opacity: 1;
 }
 .fh5co-portfolio .portfolio-entry {
